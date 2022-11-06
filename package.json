@@ -19,11 +19,6 @@
     "start:craco": "craco --max_old_space_size=16384 start",
     "build": "craco build"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app"
-    ]
-  },
   "browserslist": {
     "production": [
       ">0.2%",

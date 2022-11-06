@@ -1,13 +1,21 @@
 import "./App.css";
 import { DailyCoTestApp } from "./DailyCoTestApp/DailyCoTestApp";
-import { DummyComponent2 } from "./DailyCoTestApp/LeakMaker";
 
+import { loadStripe } from "@stripe/stripe-js";
+import { Elements } from "@stripe/react-stripe-js";
+
+/**
+ * following Stripe's documentation
+ * @ref https://stripe.com/docs/stripe-js/react
+ */
+const stripePromise = loadStripe(process.env.REACT_APP_STRIPE_PK ?? "");
 function App() {
   return (
-    <div className="App">
-      <DailyCoTestApp />
-      <DummyComponent2 />
-    </div>
+    <Elements stripe={stripePromise}>
+      <div className="App">
+        <DailyCoTestApp />
+      </div>
+    </Elements>
   );
 }
 
