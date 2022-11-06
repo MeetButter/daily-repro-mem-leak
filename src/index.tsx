@@ -1,4 +1,10 @@
 import App from "./App";
+/**
+ * if you want to see the memory leak, comment out the line below and uncomment the line above
+ * if you want to see without the leak, comment out the line above and uncomment the line below
+ */
+// import App from "./AppWithoutLeak";
+
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import { createRoot } from "react-dom/client";

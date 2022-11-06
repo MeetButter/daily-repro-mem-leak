@@ -9,7 +9,7 @@ import { Elements } from "@stripe/react-stripe-js";
  * @ref https://stripe.com/docs/stripe-js/react
  */
 const stripePromise = loadStripe(process.env.REACT_APP_STRIPE_PK ?? "");
-function App() {
+function AppWithLeak() {
   return (
     <Elements stripe={stripePromise}>
       <div className="App">
@@ -19,4 +19,4 @@ function App() {
   );
 }
 
-export default App;
+export default AppWithLeak;
