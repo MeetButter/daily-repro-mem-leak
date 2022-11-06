@@ -1,4 +1,4 @@
-# Daily Repor Memory Leak with Stripe
+# Daily Repro Memory Leak with Stripe
 
 ## .env
 
