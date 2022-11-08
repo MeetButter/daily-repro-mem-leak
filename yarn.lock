@@ -1213,10 +1213,10 @@
   resolved "https://registry.yarnpkg.com/@csstools/selector-specificity/-/selector-specificity-2.0.2.tgz#1bfafe4b7ed0f3e4105837e056e0a89b108ebe36"
   integrity sha512-IkpVW/ehM1hWKln4fCA3NzJU8KwD+kIOvPZA4cqxoJHtE21CCzjyp+Kxbu0i5I4tBNOlXPL9mjwnWlL0VEG4Fg==
 
-"@daily-co/daily-js@0.32.0":
-  version "0.32.0"
-  resolved "https://registry.yarnpkg.com/@daily-co/daily-js/-/daily-js-0.32.0.tgz#efbaa08a2d62b3af609527bd59a914f64399afd4"
-  integrity sha512-uffhlIYIPsll6Z2t4lWJdAL4P+WVs+f8wKOtWwM7AkcVDhaxyZuzx8D5xYMXHlGohVFfEPH2NDGFkilXsxNb5Q==
+"@daily-co/daily-js@0.33.0":
+  version "0.33.0"
+  resolved "https://registry.yarnpkg.com/@daily-co/daily-js/-/daily-js-0.33.0.tgz#508d7c3626ba4ac1dea87c1f77c57ebd3d35dfeb"
+  integrity sha512-STkJtSMHhyg6gjlfryVHpU4gddjsKh4uusH181sS3yl6KtUNeJz9Ifx+F3QWeDc4f3s/aaPNjwXqGf1AZUn8Kw==
   dependencies:
     "@babel/runtime" "^7.12.5"
     bowser "^2.8.1"
@@ -1681,17 +1681,17 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@stripe/react-stripe-js@1.12.0":
-  version "1.12.0"
-  resolved "https://registry.yarnpkg.com/@stripe/react-stripe-js/-/react-stripe-js-1.12.0.tgz#61d772f6271dacd19b1c9a3fb190bb7fcb568947"
-  integrity sha512-LW/f/slRq8x0y99qFjlZirnIk+q0zQvNNRtidigvHfYSbHji4QdtKDMD/HfYmtriPDRpIxOFilwsJ3ayPCC9Fw==
+"@stripe/react-stripe-js@1.14.2":
+  version "1.14.2"
+  resolved "https://registry.yarnpkg.com/@stripe/react-stripe-js/-/react-stripe-js-1.14.2.tgz#4030f1723b4c58003bfbe38189129955f6fff764"
+  integrity sha512-8dGBdSFldq6dyiYgv3r4tOwS5PGAO/446hodegSKlmWg7NkAl0McopszXJd11A9otGi47v5OzCsljyfHJgnLhw==
   dependencies:
     prop-types "^15.7.2"
 
-"@stripe/stripe-js@1.38.1":
-  version "1.38.1"
-  resolved "https://registry.yarnpkg.com/@stripe/stripe-js/-/stripe-js-1.38.1.tgz#67a27380f021931f6e44abeee2b011b8d7f524de"
-  integrity sha512-v0hF65jEs7tw33JE70E5puJ2fFhpiS2XYwmayupEdjKWavJivycYcZgZKYXAQhTiMgtDgN9YPzqUr86VzVc3Ew==
+"@stripe/stripe-js@1.42.1":
+  version "1.42.1"
+  resolved "https://registry.yarnpkg.com/@stripe/stripe-js/-/stripe-js-1.42.1.tgz#09f303fe298f81e5dc618f0df88bf929d758fa0f"
+  integrity sha512-5H7P7rVNDMdiJCUKsKXRUyr6IjZ4/9f8FB62NCa5O4rDftRfs4u2dPjjHs/tIs4OLeBB6oSzJIkE7cPr4ykPHg==
 
 "@surma/rollup-plugin-off-main-thread@^2.2.3":
   version "2.2.3"

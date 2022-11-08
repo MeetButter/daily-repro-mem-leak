@@ -3,6 +3,8 @@ import { useDaily } from "@daily-co/daily-react-hooks";
 
 const ROOM_URL = process.env.REACT_APP_ROOM_URL;
 const API_KEY = process.env.REACT_APP_DAILY_API_KEY;
+
+console.log({ ROOM_URL, API_KEY });
 export const DailyCallJoiner = () => {
   const { setAppState, appState: dailyCoAppState } = useCallState();
   const dailyCoCallObject = useDaily();
