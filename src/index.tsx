@@ -5,6 +5,8 @@ import App from "./AppWithLeak";
  */
 // import App from "./AppWithoutLeak";
 
+// import App from "./AppJustStripe";
+
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import { createRoot } from "react-dom/client";
